@@ -5,7 +5,7 @@ function MoreAbout() {
     return (
         <div>
             <section className="text-gray-600 body-font bg-[#990000]">
-                <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center mobile__about">
+                <div className="container mx-auto flex px-5 py-20 md:flex-row flex-col items-center mobile__about md:mt-[-64px]">
                     <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                         {/* KNOW MORE ABOUT 
 MAYO COLLEGE GIRLS’ SCHOOL */}
