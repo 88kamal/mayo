@@ -4,17 +4,17 @@ function BeyonAcademy() {
     return (
         <div>
             <section className="text-gray-600 body-font bg-[#990000] p-5">
-                <div className="container px-5 py-24 mx-auto ">
+                <div className="container px-5 py-10 mx-auto ">
                     <div className="flex flex-wrap w-full mb-10">
                         <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                            <h1 className="sm:text-3xl text-2xl  title-font mb-2 text-gray-900 font-bold ">BEYOND <span className=' text-white'>ACADEMICS</span> </h1>
+                            <h1 className="sm:text-3xl text-3xl  title-font mb-2 text-black font-bold ">BEYOND <span className=' text-white'>ACADEMICS</span> </h1>
                             {/* <div className="h-1 w-20 bg-purple-500 rounded" /> */}
                         </div>
 
                     </div>
                     <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/4 md:w-1/2 p-4">
-                            <div className="bg-gray-100 p-2 rounded-lg">
+                            <div className="bg-gray-100 p-2 rounded-lg shadow-2xl">
                                 <img className=" rounded w-full object-cover object-center " src="img/rectangle-34@2x.png" alt="content" />
                             </div>
                             <h1 className='text-center text-white my-5'>jAMILA SINGH HOUSE
@@ -25,7 +25,7 @@ function BeyonAcademy() {
                             </div>
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-4">
-                            <div className="bg-gray-100 p-2 rounded-lg">
+                            <div className="bg-gray-100 p-2 rounded-lg shadow-2xl">
                                 <img className=" rounded w-full object-cover object-center " src="img/rectangle-35@2x.png" alt="content" />
 
                             </div>

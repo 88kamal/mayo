@@ -1,3 +1,6 @@
+/*  */
+
+
 .overlay {
   background: linear-gradient(90deg, #000, rgba(0, 0, 0, 0));
   height: 50em;
@@ -35,19 +38,21 @@
 
   .form__mobile {
     margin-top: 10em;
-    background-color: rgb(255, 255, 255);
+    background-color: #990000;
     width: 100%;
+    height: 23em;
     /* box-shadow: 0 -5px 5px -5px #333; */
     box-shadow: 5px 0 5px -5px #333;
     box-shadow: 0 5px 5px -5px #333;
     /* box-shadow: -5px 0 5px -5px #333; */
 
     /* box-shadow: 0 0 5px #333; */
+    border-radius: 2em;
 
   }
 
   .mobile__about {
-    margin-top: 18em;
+    margin-top: 19em;
     padding: 45px;
   }
 
@@ -66,7 +71,6 @@
     background: linear-gradient(90deg, #000, rgba(0, 0, 0, 0));   
      height: 72em;
   }
-
 } */
 
 
@@ -304,7 +308,6 @@
   .item{
     margin-left: 12em;
     width: 66em;
-
   }
 } */
 @media only screen and (min-width: 1370px) and (max-width: 1605px) {
@@ -313,4 +316,35 @@
   margin-left: 12em;
   width: 66em;
 }
+}
+
+
+
+
+
+.image2 {
+  display: none;
+}
+.d-block {
+  display: block ;
+}
+@media only screen and (max-width: 500px) {
+  .image1 {
+    display: none;
+  }
+
+  .image2 {
+    display: block;
+  }
+.mobilestyle{
+  background-color: #F1EEEE;
+}
+  
+}
+
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }

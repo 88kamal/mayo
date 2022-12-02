@@ -11,9 +11,9 @@ function Navbar() {
     return (
         <div>
 
-            <nav className="bg-[#990000] sticky top-0 "  >
+            <nav className="bg-[#990000]  fixed top-0 w-full z-30"  >
                 <div className=' overlayNav '>
-                    <div className="justify-between px-4 mx-auto   lg:max-w-7xl md:items-center md:flex md:px-8   ">
+                    <div className="justify-between px-4 mx-auto  lg:max-w-7xl md:items-center md:flex md:px-8   ">
                         <div>
                             <div className="flex items-center justify-between py-3 md:py-5 md:block">
                                 <div href={'/'} className="flex " >

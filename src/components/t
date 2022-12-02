@@ -1,0 +1,98 @@
+import React from 'react'
+import '../App.css'
+
+function AdmissionInfo() {
+    return (
+        <div className='bg-[#DBDBDB]'>
+            <div className=' container mx-auto px-4 p-10 '>
+                <h1 className=' text-2xl md:text-3xl font-bold'>ADMISSION <span className=' text-red-600'>INFORMATION</span> </h1>
+                <div>
+                    <p className='my-5'>The Common Aptitude Analysis is held in the third week of November at Mayo College Girls' School at various locations in India. Additionally, it can be organised through the Indian Embassy there.</p>
+                </div>
+                <div>
+                    <h1 className=' text-2xl md:text-3xl font-semibold my-5'>Steps for <span className=' text-red-600'>Admission Procedure</span></h1>
+                </div>
+                <div>
+                    <div className=' bg-[#810101] step1'>
+                        <div className=' flex'>
+                            <div className=' flex justify-center items-center'>
+                                <p className='m-5 text-lg text-white '>You will need to fill out a registration form. Please send the registration fee along with the application</p>
+                            </div>
+
+                            <div className=' absolute  md:relative '>
+                                <svg className=' relative left-[74px]' width="151" height="151" viewBox="0 0 151 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="75.5" className=' circle text-black' cy="75.5" r="75.5" fill="#F1EEEE" >01</circle>
+
+                                </svg>
+                                <div className=' absolute top-[38px] right-[-38px]'>
+                                    <h1 className=' text-7xl text-[#810101]'>01</h1>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className=' bg-[#A40303] step2'>
+                        <div className=' flex'>
+                            <div className=' flex justify-center items-center'>
+                                <p className='m-5 text-lg text-white '>Upon verifying your application and documents, the admission council will notify you if you are eligible.</p>
+                            </div>
+
+                            <div className=' absolute  md:relative '>
+                                <svg className=' relative left-[74px]' width="151" height="151" viewBox="0 0 151 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="75.5" className=' circle' cy="75.5" r="75.5" fill="#F1EEEE" />
+                                </svg>
+                            </div>
+                            <div className=' absolute right-[495px]'>
+                                <h1 className=' text-7xl mt-[35px] text-[#810101]'>02</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className=' bg-[#CE0C0C] step3'>
+                        <div className=' flex'>
+
+                            <div className=' flex justify-center items-center'>
+                                <p className='m-5 text-lg text-white '>Following this, you will have to take an aptitude test, usually held in the 3rd week of November.</p>
+                            </div>
+
+                            <div className=' absolute  md:relative'>
+                                <svg className=' relative left-[99px]' width="151" height="151" viewBox="0 0 151 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="75.5" className=' circle' cy="75.5" r="75.5" fill="#F1EEEE" />
+                                </svg>
+                            </div>
+                            <div className=' absolute right-[332px]'>
+                                <h1 className=' text-7xl mt-[37px] text-[#810101]'>03</h1>
+                            </div>
+                        </div>
+                    </div>
+                    <div className=' bg-[#E91B1B] step4'>
+                        <div className=' flex'>
+                            <div className=' flex justify-center items-center'>
+                                <p className='m-5 text-lg text-white '>Upon passing the test, you will be accepted into the school</p>
+                            </div>
+
+                            <div className=' absolute  md:relative'>
+                                <svg className=' relative left-[534px]' width="151" height="151" viewBox="0 0 151 151" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="75.5" className=' circle' cy="75.5" r="75.5" fill="#F1EEEE" />
+                                </svg>
+                            </div>
+                            <div className=' absolute right-[180px]'>
+                                <h1 className=' text-7xl mt-[37px] text-[#810101]'>04</h1>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div className="flex my-10 ">
+                    <button className="inline-flex text-white bg-[#FFA700] border-0 py-2 px-6 focus:outline-none hover:bg-purple-600 rounded text-lg">Read More</button>
+
+                </div>
+            </div>
+
+        </div>
+    )
+}
+
+export default AdmissionInfo

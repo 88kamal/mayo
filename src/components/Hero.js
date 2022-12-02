@@ -15,14 +15,14 @@ function Hero() {
 
     return (
         <div>
-            <div className='background1'>
+            <div className='background1 my-[76px] md:my-[64px]'>
                 {/* <Navbar/> */}
                 <section className="overlay">
                     <div className='text-gray-600 body-font'>
                         <div className="container mx-auto flex px-5 py-52 md:flex-row flex-col items-center">
                             <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
                                 <h1 className="title-font sm:text-6xl text-5xl md:text-7xl mb-4 font-bold text-white">MAYO GIRLS
-                                    <br className="hidden lg:inline-block" />SCHOOL
+                                    <br className="hidden lg:inline-block" /> SCHOOL
                                 </h1>
                                 <p className="mb-8 leading-relaxed text-white text-2xl">Know about Mayo College Girls’ School</p>
                                 <div className="flex justify-center">
