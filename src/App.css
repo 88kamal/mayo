@@ -1,38 +1,316 @@
-.App {
-  text-align: center;
+.overlay {
+  background: linear-gradient(90deg, #000, rgba(0, 0, 0, 0));
+  height: 50em;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlayNav {
+  background: linear-gradient(30deg, #000, rgba(0, 0, 0, 0));
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.background1 {
+  background-image: url('../public/img/rectangle-21@2x.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* width: 100em; */
+  height: 50em;
+}
+
+/*  */
+
+
+@media only screen and (max-width: 480px) {
+  .background1 {
+    background-image: url('../public/img/Pasted Graphic 9_1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* height: 72em; */
+
   }
+
+  .overlay {
+    background: linear-gradient(90deg, #000, rgba(0, 0, 0, 0));
+    height: 41em;
+  }
+
+  .form__mobile {
+    margin-top: 10em;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    /* box-shadow: 0 -5px 5px -5px #333; */
+    box-shadow: 5px 0 5px -5px #333;
+    box-shadow: 0 5px 5px -5px #333;
+    /* box-shadow: -5px 0 5px -5px #333; */
+
+    /* box-shadow: 0 0 5px #333; */
+
+  }
+
+  .mobile__about {
+    margin-top: 18em;
+    padding: 45px;
+  }
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* @media only screen and (min-width: 586px)
+{
+  .background1{
+    background-image: url('../public/img/Pasted Graphic 9_1.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 12em;
+    
+  }
+  .overlay{
+    background: linear-gradient(90deg, #000, rgba(0, 0, 0, 0));   
+     height: 72em;
+  }
+
+} */
+
+
+.box__shadow{
+
+  box-shadow: 0 1px 9px 2px #602828;
+}
+
+
+
+
+
+
+.step1 {
+  width: 52%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+.step1 {
+  width: 75%;
+  height: 11em;
+}
+
+.step1padd{
+  padding: 56px 53px;
+}
+
+
+.step2__text{
+  width: 5em;
+}
+}
+
+.step2 {
+  width: 65%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+  .step2 {
+    width: 90%;
+    height: 11em;
+  }
+  
+  .step2padd{
+    padding: 58px 111px 57px 35px ;
+  }
+  }
+  
+
+  
+
+.step3 {
+  width: 78%;
+}
+
+
+@media only screen and (max-width: 480px) {
+  
+  .step3 {
+    width: 95%;
+    height: 11em;
+  }
+  
+  .step3padd{
+    padding: 58px 111px 57px 35px ;
+  }
+  }
+
+.step4 {
+  width: 90%;
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .step4 {
+    width: 100%;
+    height: 11em;
+  }
+  
+  .step4padd{
+    padding: 58px 111px 57px 35px ;
+  }
+  }
+
+
+
+
+
+
+  /* Testimonials 
+  
+  */
+
+
+  /** testiomnial section **/
+
+.testimonial-section {
+  position: relative;
+  background: url('../public/img/rectangle-631@2x.png');
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-bottom: 78px;
+}
+
+.testimonial-section:before {
+  position: absolute;
+  content: '';
+  background: #1e1f22;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.2;
+}
+
+.testimonial-section .item {
+  padding: 0 20px;
+
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.alice-carousel__dots {
+  /* margin: 23px 3px 5px; */
+  position: relative;
+  top: 12px;
+  padding: 0;
+  list-style: none;
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.sec-padt {
+  padding: 44px 0px 9px 0px;
+}
+
+@media only screen and (max-width: 523px) {
+
+  .addmission2 {
+
+    position: relative;
+    bottom: 12em;
+
   }
-  to {
-    transform: rotate(360deg);
+}
+
+.items {
+  width: 100%;
+  height: 90%;
+}
+
+.alice-carousel__wrapper {
+  position: relative;
+  top: 43px;
+}
+
+
+.testimonial-section {
+  position: relative;
+  /* background: url(..); */
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-bottom: 78px;
+}
+
+.testimonial-section:before {
+  position: absolute;
+  content: '';
+  background: #1e1f22;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  opacity: 0.2;
+}
+
+.testimonial-section .item {
+  height: 280px;
+  padding: 46px 20px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 26px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+@media only screen and (max-width:687px) {
+
+  .testimonial-section .item {
+    height: 498px;
+    margin: 11px
   }
+
+
+  .alice-carousel__wrapper {
+    position: relative;
+    top: 6px;
+  }
+
+  .alice-carousel__dots {
+    /* margin: 23px 3px 5px; */
+    position: relative;
+    top: -15px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .testimonial-para {
+   font-size: 18px !important;
+  }
+}
+
+.testimonial-para {
+  position: relative;
+  font-size: 19px;
+  font-family: 'Lato', sans-serif;
+  line-height: 26px;
+  font-weight: 400;
+  color: #848484;
+  margin-bottom: 10px;
+  transition: all 500ms ease;
+  top: 10px;
+}
+
+/* 
+@media only screen and (min-width: 960px) {
+  .item{
+    margin-left: 12em;
+    width: 66em;
+
+  }
+} */
+@media only screen and (min-width: 1370px) and (max-width: 1605px) {
+ 
+ .item{
+  margin-left: 12em;
+  width: 66em;
+}
 }
