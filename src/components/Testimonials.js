@@ -44,20 +44,29 @@ function Testimonials() {
 
 
         <div className=' '>
-            <div className="title-head bg-[#990000]  p-8"> <span className='container mx-auto px-4 text-white text-3xl font-bold'>TESTIMONIALS</span></div>
+            <div className="title-head bg-[#990000]  p-8"> <span className='container  px-4 text-white text-3xl font-bold mx-[27px]'>TESTIMONIALS</span></div>
 
             <div className="hidden-mobile hidden-mobile2  md:my-0 ">
-                <section className="testimonial-section sec-padt centred  ">
-                    <div className="container">
+                <section className="testimonial-section sec-padt centred flex justify-center   ">
+                    <div className="container testi__center">
                         <div className="testimonial-title white">
+                            <div className="item active mt-[26px]" onDragStart={handleDragStart}>
+                                <h2 className=' text-black font-bold text-3xl text-center'>MARY JAMES
+                                </h2>
+                                {/* <img src="images/home/anmol-web.png" alt=""> */}
+                                <p className=' text-black font-light my-5   text-base text-justify  '> I am a mother, and I want to share my experience with all of you. My name is Mary, and I'm living in Texas. Two years ago, I was looking for a good school for my daughter. I came across the Mayo College Girls School website, and that's when I found the perfect school for her. The teachers at Mayo College Girls School are very nice and experienced in their field, which is why it made me feel at ease that my daughter was in such good hands.
+                                    Mayo College Girls School was a life-changing experience for my daughter. She came out independent, confident, and excited to start a new chapter of her life. I would recommend Mayo College Girls School to any parent looking to help their daughter shape the next stage of her life.
 
+                                </p>
+                            </div>
+                            {/* <items/> */}
 
                             {/* <div className="section-title-testimonial"> */}
-                            <div>
+                            {/* <div>
                                 <AliceCarousel className="" mouseTracking items={items}
                                      />
 
-                            </div>
+                            </div> */}
                         </div>
                     </div>
 
