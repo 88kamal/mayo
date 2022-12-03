@@ -127,13 +127,8 @@ function Navbar() {
                                         <Link to={'/studentlife'}>Student life</Link>
                                     </li>
                                     <li className="text-gray-100 hover:text-[#FFA700]">
-                                        <Link to={'/conactus'}>Conact us</Link>
+                                        <Link to={'/contactus'}>Contact us</Link>
                                     </li>
-
-
-
-
-
                                 </ul>
                             </div>
 

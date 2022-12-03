@@ -1,7 +1,7 @@
 import React from 'react'
 import Layout from '../components/Layout'
 
-function Conactus() {
+function Contactus() {
   return (
     <Layout>
               <h1 className='my-20'>Contactus</h1>
@@ -10,4 +10,4 @@ function Conactus() {
   )
 }
 
-export default Conactus
+export default Contactus

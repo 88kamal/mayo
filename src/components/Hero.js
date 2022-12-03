@@ -40,16 +40,16 @@ function Hero() {
                                         <h1 className=' my-5 text-white md:text-black font-bold text-2xl'>APPLY FOR ADMISSIONS </h1>
                                     </div>
                                     <div className="mb-6">
-                                        <input type="text" id="name" className="bg-[#e3e0e0] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" placeholder="name" required />
+                                        <input type="text" id="name" className="bg-[#dfe4ea] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" placeholder="name" required />
                                     </div>
                                     <div className="mb-6">
-                                        <input type="email" id="email" className="bg-[#e3e0e0] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" placeholder="name@flowbite.com" required />
+                                        <input type="email" id="email" className="bg-[#dfe4ea] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" placeholder="name@flowbite.com" required />
                                     </div>
                                     <div className="mb-6">
-                                        <input type="password" id="password" className="bg-[#e3e0e0] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" required />
+                                        <input type="password" id="password" className="bg-[#dfe4ea] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" required />
                                     </div>
                                     <div className=' text-center'>
-                                        <button type="submit" className="text-white bg-[#FFA700]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm w-full sm:w-auto px-10 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 btn__mobile">Submit</button>
+                                        <button type="submit" className="text-white bg-[#FFA700]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm w-full sm:w-auto px-10 py-2.5 text-center   btn__mobile">Submit</button>
                                     </div>
 
                                 </form>

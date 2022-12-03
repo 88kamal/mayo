@@ -9,7 +9,7 @@ import About from './pages/About';
 import Admission from './pages/Admission';
 import Facilities from './pages/Facilities';
 import Studentlife from './pages/Studentlife';
-import Conactus from './pages/Conactus';
+import Contactus from './pages/Contactus';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
         <Route exact path="/admission" element={<Admission />} />
         <Route exact path="/facilities" element={<Facilities />} />
         <Route exact path="/studentlife" element={<Studentlife />} />
-        <Route exact path="/conactus" element={<Conactus />} />
+        <Route exact path="/contactus" element={<Contactus />} />
       </Routes>
     </Router>
   );

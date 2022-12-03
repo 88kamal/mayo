@@ -37,7 +37,7 @@ export default function Faq() {
                                             } h-5 w-5 text-black`}
                                     />
                                 </Disclosure.Button>
-                                <Disclosure.Panel className="px-4 pt-4 pb-2 text-sm md:w-[90em] text-white bg-[#FBAB14]">
+                                <Disclosure.Panel className="px-4 w-full pt-4 pb-2 text-sm md:w-[90em] text-white bg-[#FBAB14]">
                                     If you're unhappy with your purchase for any reason, email us
                                     within 90 days and we'll refund you in full, no questions asked.
                                 </Disclosure.Panel>
@@ -87,7 +87,7 @@ export default function Faq() {
                     <Disclosure>
                         {({ open }) => (
                             <>
-                                <Disclosure.Button className="flex w-full my-2 justify-between md:w-[90em] faq__width bg-[#D9D9D9] px-4 py-2 text-left text-sm font-medium text-black hover:bg-red-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
+                                <Disclosure.Button className="flex w-full   my-2 justify-between md:w-[90em] faq__width bg-[#D9D9D9] px-4 py-2 text-left text-sm font-medium text-black hover:bg-red-200 focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
                                     <span>What is your refund policy?</span>
                                     <ChevronUpIcon
                                         className={`${open ? 'rotate-180 transform' : ''

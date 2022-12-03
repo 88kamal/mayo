@@ -26,7 +26,7 @@ function SimilarSchool() {
                             </div>
                         </div>
                         <div className="xl:w-1/4 md:w-1/2 p-6 md:p-4">
-                            <div className="bg-gray-100 p-6 rounded-2xl box__shadow">
+                            <div className="bg-gray-100 p-6 rounded-2xl  similar__school2  box__shadow">
                                 <img className="h-40  w-full  object-center mb-6" src="img/rectangle-98@2x.png" alt="content" />
 
                                 <h2 className="text-lg text-gray-900 font-medium title-font mb-4 text-center">Ecole Globale International
@@ -57,7 +57,7 @@ function SimilarSchool() {
                                 <h1 className=' text-center font-bold text-[#990000] relative top-[62px] text-2xl '>APPLY FOR
                                     ADMISSIONS</h1>
 
-                                <div className='my-[91px]'>
+                                <div className='my-[91px] similar__school4'>
                                     <form className=' relative top-[21px]'>
 
                                         <div className="mb-6">
