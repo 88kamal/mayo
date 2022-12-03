@@ -1,17 +1,17 @@
 import React from 'react'
-import AliceCarousel from 'react-alice-carousel';
-import 'react-alice-carousel/lib/alice-carousel.css';
+// import AliceCarousel from 'react-alice-carousel';
+// import 'react-alice-carousel/lib/alice-carousel.css';
 import '../App.css'
 // import '../../style/hero.css'
-import Navbar from './Navbar';
-const handleDragStart = (e) => e.preventDefault();
+// import Navbar from './Navbar';
+// const handleDragStart = (e) => e.preventDefault();
 
 function Hero() {
-    const items = [
-        <img src="/img/rectangle-21@2x.png" onDragStart={handleDragStart} role="presentation" />,
-        <img src="/img/Pasted Graphic_1.jpg" onDragStart={handleDragStart} role="presentation" />,
-        <img src="/img/Pasted Graphic 2_1.jpg" onDragStart={handleDragStart} role="presentation" />,
-    ];
+    // const items = [
+    //     <img src="/img/rectangle-21@2x.png" onDragStart={handleDragStart} role="presentation" />,
+    //     <img src="/img/Pasted Graphic_1.jpg" onDragStart={handleDragStart} role="presentation" />,
+    //     <img src="/img/Pasted Graphic 2_1.jpg" onDragStart={handleDragStart} role="presentation" />,
+    // ];
 
     return (
         <div>
