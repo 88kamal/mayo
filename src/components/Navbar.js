@@ -1,6 +1,7 @@
 import React, { useContext, useState } from 'react'
 import '../App.css'
 import { BsTelephoneFill, BsWhatsapp } from 'react-icons/bs'
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     // const [isExpanded, toggleExpansion] = useState(false);
@@ -75,26 +76,26 @@ function Navbar() {
                                     }`}
                             >
                                 <ul className="items-center justify-center space-y-4 md:flex md:space-x-6 md:space-y-0">
-                                    <li className="text-gray-100 hover:text-[#6366F1]">
-                                        <div >Home</div>
+                                    <li className="text-gray-100 hover:text-[#FFA700]">
+                                        <Link to={'/'} >Home</Link>
                                     </li>
                                     {/* <li className="text-gray-600 hover:text-blue-600">
                                     <a >Blog</a>
                                 </li> */}
-                                    <li className="text-gray-100 hover:text-[#6366F1]">
-                                        <div>About us</div>
+                                    <li className="text-gray-100 hover:text-[#FFA700]">
+                                        <Link to={'/about'}>About us</Link>
                                     </li>
-                                    <li className="text-gray-100 hover:text-[#6366F1]">
-                                        <div>Admission</div>
+                                    <li className="text-gray-100 hover:text-[#FFA700]">
+                                        <Link to={'/admission'}>Admission</Link>
                                     </li>
-                                    <li className="text-gray-100 hover:text-[#6366F1]">
-                                        <div>Facilities</div>
+                                    <li className="text-gray-100 hover:text-[#FFA700]">
+                                        <Link to={'/facilities'}>Facilities</Link>
                                     </li>
-                                    <li className="text-gray-100 hover:text-[#6366F1]">
-                                        <div>Student life</div>
+                                    <li className="text-gray-100 hover:text-[#FFA700]">
+                                        <Link to={'/studentlife'}>Student life</Link>
                                     </li>
-                                    <li className="text-gray-100 hover:text-[#6366F1]">
-                                        <div>Conact us</div>
+                                    <li className="text-gray-100 hover:text-[#FFA700]">
+                                        <Link to={'/conactus'}>Conact us</Link>
                                     </li>
 
 

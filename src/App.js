@@ -1,26 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
-import Hero from './components/Hero';
-import Layout from './components/Layout';
-import MoreAbout from './components/MoreAbout';
-import AdmissionInfo from './components/AdmissionInfo';
-import BeyonAcademy from './components/BeyonAcademy';
-import SimilarSchool from './components/SimilarSchool';
-import Testimonials from './components/Testimonials';
-import Faq from './components/Faq';
+import Home from './Home';
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes
+} from "react-router-dom";
+import About from './pages/About';
+import Admission from './pages/Admission';
+import Facilities from './pages/Facilities';
+import Studentlife from './pages/Studentlife';
+import Conactus from './pages/Conactus';
 
 function App() {
   return (
-    <div>
-      <Layout/>
-      <Hero/>
-      <MoreAbout/>
-      <AdmissionInfo/>
-      <BeyonAcademy/>
-      <SimilarSchool/>
-      <Testimonials/>
-      <Faq/>
-    </div>
+    <Router>
+      {/* <Home /> */}
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route exact path="/about" element={<About />} />
+        <Route exact path="/admission" element={<Admission />} />
+        <Route exact path="/facilities" element={<Facilities />} />
+        <Route exact path="/studentlife" element={<Studentlife />} />
+        <Route exact path="/conactus" element={<Conactus />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -50,7 +50,12 @@
     border-radius: 2em;
 
   }
-
+  .input__mobile{
+    background-color: rgb(255, 255, 255);
+  }
+.btn__mobile{
+  background-color: #FFA700;
+}
   .mobile__about {
     margin-top: 19em;
     padding: 45px;
@@ -343,3 +348,7 @@
 }
 
 
+
+.input__shadow{
+  box-shadow: inset 0 0 6px rgba(38 33 33 /84%)
+}
