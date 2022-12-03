@@ -52,6 +52,7 @@
   }
   .input__mobile{
     background-color: #f1f2f6;
+    color: black;
   }
 .btn__mobile{
   background-color: #FFA700;
@@ -374,6 +375,7 @@
     .input__mobile{
       background-color: #f1f2f6;
     }
+    
 }
 
 
@@ -417,3 +419,7 @@ width: 85em;
 
    
   
+      .faq-row {
+        background-color: rgb(255, 255, 255) !important;
+        margin-top: 12px;
+      }

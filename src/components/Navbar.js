@@ -26,13 +26,13 @@ function Navbar() {
                             <div className="flex items-center justify-between py-3 md:py-5 md:block">
                                 <div href={'/'} className="flex " >
                                     <h2 className="text-2xl font-bold text-white">
-                                        <BsTelephoneFill />
+                                        <BsTelephoneFill size={25}/>
 
                                     </h2>
                                     <h2 className="text-2xl font-bold text-white mx-4">
 
 
-                                        <BsWhatsapp />
+                                        <BsWhatsapp size={25}/>
                                     </h2>
                                 </div>
                                 <div className="md:hidden">

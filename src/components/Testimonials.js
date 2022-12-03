@@ -44,7 +44,7 @@ function Testimonials() {
 
 
         <div className=' '>
-            <div className="title-head bg-[#990000]  p-8"> <span className='container  px-4 text-white text-3xl font-bold mx-[27px]'>TESTIMONIALS</span></div>
+            <div className="title-head bg-[#990000]  p-8"> <span className='container  px-4 text-white text-3xl font-bold '>TESTIMONIALS</span></div>
 
             <div className="hidden-mobile hidden-mobile2  md:my-0 ">
                 <section className="testimonial-section sec-padt centred flex justify-center   ">

@@ -7,6 +7,7 @@ import BeyonAcademy from './components/BeyonAcademy';
 import SimilarSchool from './components/SimilarSchool';
 import Testimonials from './components/Testimonials';
 import Faq from './components/Faq';
+import Faqs from './components/Faqs';
 
 function Home() {
     return (
@@ -18,7 +19,8 @@ function Home() {
                 <BeyonAcademy />
                 <SimilarSchool />
                 <Testimonials />
-                <Faq />
+                {/* <Faq /> */}
+                <Faqs/>
             </Layout>
 
         </div>
