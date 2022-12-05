@@ -10,6 +10,9 @@ import Admission from './pages/Admission';
 import Facilities from './pages/Facilities';
 import Studentlife from './pages/Studentlife';
 import Contactus from './pages/Contactus';
+import Howtoregister from './pages/Howtoregister';
+import FeeStructure from './pages/FeeStructure';
+import Withdrawalpolicy from './pages/Withdrawalpolicy';
 
 function App() {
   return (
@@ -22,6 +25,10 @@ function App() {
         <Route exact path="/facilities" element={<Facilities />} />
         <Route exact path="/studentlife" element={<Studentlife />} />
         <Route exact path="/contactus" element={<Contactus />} />
+        <Route exact path="/howtoregister" element={<Howtoregister />} />
+        <Route exact path="/feeStructure" element={<FeeStructure />} />
+        <Route exact path="/withdrawalpolicy" element={<Withdrawalpolicy/>} />
+
       </Routes>
     </Router>
   );
