@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Hero from './components/Hero';
 import Layout from './components/Layout';
 import MoreAbout from './components/MoreAbout';
@@ -10,6 +10,9 @@ import Faq from './components/Faq';
 import Faqs from './components/Faqs';
 
 function Home() {
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
     return (
         <div>
             <Layout>
