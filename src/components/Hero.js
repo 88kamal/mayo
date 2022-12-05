@@ -24,7 +24,7 @@ function Hero() {
 
                                 </div>
                             </div>
-                            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-[#ecb5b547] p-5 rounded-2xl border-2 form__mobile my-10" style={{
+                            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-[#ecb5b547] p-5 rounded-2xl border-2 form__mobile " style={{
                                 backdropFilter: 'blur(1px)'
                             }}>
                              
