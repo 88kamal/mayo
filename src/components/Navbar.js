@@ -37,7 +37,7 @@ function Navbar() {
                                 </div>
                                 <div className="md:hidden">
                                     <button
-                                        className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-900 focus:border"
+                                        className="p-2  rounded-md outline-none "
                                         onClick={() => setNavbar(!navbar)}
                                     >
                                         {navbar ? (
@@ -76,7 +76,8 @@ function Navbar() {
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 className="w-8 h-8"
                                                 viewBox="0 0 20 20"
-                                                fill="currentColor"
+                                                fill="white"
+                                                
                                             >
                                                 <path
                                                     fillRule="evenodd"
@@ -92,14 +93,14 @@ function Navbar() {
                                                 className="w-8 h-8"
                                                 fill="none"
                                                 viewBox="0 0 24 24"
-                                                stroke="currentColor"
+                                                stroke="white"
                                                 strokeWidth={2}
                                             >
                                                 <path
                                                     strokeLinecap="round"
                                                     strokeLinejoin="round"
                                                     d="M4 6h16M4 12h16M4 18h16"
-                                                    className=' text-white'
+                                                    className=' text-white '
 
 
                                                 />

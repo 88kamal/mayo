@@ -19,7 +19,6 @@
   height: 50em;
 }
 
-/*  */
 
 
 @media only screen and (max-width: 480px) {
@@ -27,7 +26,7 @@
     background-image: url('../public/img/Pasted Graphic 9_1.jpg');
     background-repeat: no-repeat;
     background-size: contain;
-    /* height: 72em; */
+    /* height: 50em; */
 
   }
 
@@ -50,18 +49,24 @@
     border-radius: 2em;
 
   }
-  .input__mobile{
+
+  .input__mobile {
     background-color: #f1f2f6;
     color: black;
   }
-.btn__mobile{
-  background-color: #FFA700;
-}
+
+  .btn__mobile {
+    background-color: #FFA700;
+  }
+
   .mobile__about {
     margin-top: 19em;
     padding: 45px;
   }
 
+  .btn__three__mobile {
+    color: white;
+  }
 }
 
 /* @media only screen and (min-width: 586px)
@@ -80,7 +85,7 @@
 } */
 
 
-.box__shadow{
+.box__shadow {
 
   box-shadow: 0 1px 9px 2px #602828;
 }
@@ -96,20 +101,20 @@
 
 
 @media only screen and (max-width: 480px) {
-  
-.step1 {
-  width: 75%;
-  height: 11em;
-}
 
-.step1padd{
-  padding: 56px 53px;
-}
+  .step1 {
+    width: 75%;
+    height: 11em;
+  }
+
+  .step1padd {
+    padding: 56px 53px;
+  }
 
 
-.step2__text{
-  width: 5em;
-}
+  .step2__text {
+    width: 5em;
+  }
 }
 
 .step2 {
@@ -118,20 +123,20 @@
 
 
 @media only screen and (max-width: 480px) {
-  
+
   .step2 {
     width: 90%;
     height: 11em;
   }
-  
-  .step2padd{
-    padding: 58px 111px 57px 35px ;
-  }
-  
-  }
-  
 
-  
+  .step2padd {
+    padding: 58px 111px 57px 35px;
+  }
+
+}
+
+
+
 
 .step3 {
   width: 78%;
@@ -139,44 +144,44 @@
 
 
 @media only screen and (max-width: 480px) {
-  
+
   .step3 {
     width: 95%;
     height: 11em;
   }
-  
-  .step3padd{
-    padding: 58px 111px 57px 35px ;
+
+  .step3padd {
+    padding: 58px 111px 57px 35px;
   }
-  }
+}
 
 .step4 {
   width: 90%;
 }
 
 @media only screen and (max-width: 480px) {
-  
+
   .step4 {
     width: 100%;
     height: 11em;
   }
-  
-  .step4padd{
-    padding: 58px 111px 57px 35px ;
+
+  .step4padd {
+    padding: 58px 111px 57px 35px;
   }
-  }
+}
 
 
 
 
 
 
-  /* Testimonials 
+/* Testimonials 
   
   */
 
 
-  /** testiomnial section **/
+/** testiomnial section **/
 
 .testimonial-section {
   position: relative;
@@ -294,8 +299,9 @@
     list-style: none;
     text-align: center;
   }
+
   .testimonial-para {
-   font-size: 18px !important;
+    font-size: 18px !important;
   }
 }
 
@@ -319,14 +325,15 @@
   }
 } */
 @media only screen and (min-width: 1370px) and (max-width: 1605px) {
- 
- .item{
-  margin-left: 12em;
-  width: 66em;
-}
-.testi__center{
-  margin-left: -126px;
-}
+
+  .item {
+    margin-left: 12em;
+    width: 66em;
+  }
+
+  .testi__center {
+    margin-left: -126px;
+  }
 }
 
 
@@ -336,9 +343,11 @@
 .image2 {
   display: none;
 }
+
 .d-block {
-  display: block ;
+  display: block;
 }
+
 @media only screen and (max-width: 500px) {
   .image1 {
     display: none;
@@ -347,35 +356,39 @@
   .image2 {
     display: block;
   }
-.mobilestyle{
-  background-color: #F1EEEE;
+
+  .mobilestyle {
+    background-color: #F1EEEE;
+  }
+
+
 }
 
-  
-}
 
 
-
-.input__shadow{
+.input__shadow {
   box-shadow: inset 0 0 6px rgba(38 33 33 /84%)
 }
 
 
 
-@media screen and (max-width: 995px){
-  .faq__width{
+@media screen and (max-width: 995px) {
+  .faq__width {
     /* width: 66em; */
-    }
-    .similar__school4{
-      height: 16.8em;
-    }
-    .similar__school2 {
-      height: 33.3em;
-    }
-    .input__mobile{
-      background-color: #f1f2f6;
-    }
-    
+  }
+
+  .similar__school4 {
+    height: 16.8em;
+  }
+
+  .similar__school2 {
+    height: 33.3em;
+  }
+
+  .input__mobile {
+    background-color: #f1f2f6;
+  }
+
 }
 
 
@@ -387,20 +400,20 @@ width: 85em;
 
  
  } */
- 
- /* @media screen and (min-width: 968px) {
+
+/* @media screen and (min-width: 968px) {
   .faq__width{
     width: 7em;
     }
 } */
- /* @media only screen and (min-width: 968px){
+/* @media only screen and (min-width: 968px){
   .faq__width{
  width: 66em;
  }
   } */
 
 
-   
+
 
 /*   
   @media only screen and (max-width: 768px){
@@ -417,9 +430,9 @@ width: 85em;
       
       } */
 
-   
-  
-      .faq-row {
-        background-color: rgb(255, 255, 255) !important;
-        margin-top: 12px;
-      }
+
+
+.faq-row {
+  background-color: rgb(255, 255, 255) !important;
+  margin-top: 12px;
+}

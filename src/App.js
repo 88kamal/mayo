@@ -13,6 +13,10 @@ import Contactus from './pages/Contactus';
 import Howtoregister from './pages/Howtoregister';
 import FeeStructure from './pages/FeeStructure';
 import Withdrawalpolicy from './pages/Withdrawalpolicy';
+import Shruti from './pages/Alumnae/Shruti';
+import Vedita from './pages/Alumnae/Vedita';
+import Chhavi from './pages/Alumnae/Chhavi';
+import Harshi from './pages/Alumnae/Harshi';
 
 function App() {
   return (
@@ -27,7 +31,13 @@ function App() {
         <Route exact path="/contactus" element={<Contactus />} />
         <Route exact path="/howtoregister" element={<Howtoregister />} />
         <Route exact path="/feeStructure" element={<FeeStructure />} />
-        <Route exact path="/withdrawalpolicy" element={<Withdrawalpolicy/>} />
+        <Route exact path="/withdrawalpolicy" element={<Withdrawalpolicy />} />
+        {/* Alumni  */}
+        <Route exact path="/shruti" element={<Shruti />} />
+        <Route exact path="/vedita" element={<Vedita />} />
+        <Route exact path="/chhavi" element={<Chhavi />} />
+        <Route exact path="/harshi" element={<Harshi />} />
+
 
       </Routes>
     </Router>

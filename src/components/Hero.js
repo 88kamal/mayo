@@ -7,16 +7,10 @@ import '../App.css'
 // const handleDragStart = (e) => e.preventDefault();
 
 function Hero() {
-    // const items = [
-    //     <img src="/img/rectangle-21@2x.png" onDragStart={handleDragStart} role="presentation" />,
-    //     <img src="/img/Pasted Graphic_1.jpg" onDragStart={handleDragStart} role="presentation" />,
-    //     <img src="/img/Pasted Graphic 2_1.jpg" onDragStart={handleDragStart} role="presentation" />,
-    // ];
 
     return (
         <div>
             <div className='background1 my-[72px] md:my-[64px]'>
-                {/* <Navbar/> */}
                 <section className="overlay">
                     <div className='text-gray-600 body-font'>
                         <div className="container mx-auto flex px-5 py-52 md:flex-row flex-col items-center">
@@ -30,11 +24,10 @@ function Hero() {
 
                                 </div>
                             </div>
-                            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-[#ecb5b547] p-5 rounded-2xl border-2 form__mobile" style={{
+                            <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-[#ecb5b547] p-5 rounded-2xl border-2 form__mobile my-10" style={{
                                 backdropFilter: 'blur(1px)'
                             }}>
-                                {/* <img className="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600" /> */}
-
+                             
                                 <form>
                                     <div className=' text-center'>
                                         <h1 className=' my-5 text-white md:text-[#03001B] font-bold text-2xl'>APPLY FOR ADMISSIONS </h1>
@@ -60,12 +53,12 @@ function Hero() {
                 </section>
             </div>
 
+
+      
+            
         </div>
 
-        // <div>
-        //         <AliceCarousel mouseTracking items={items} />
 
-        // </div>
     )
 }
 
