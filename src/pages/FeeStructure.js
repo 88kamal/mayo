@@ -23,7 +23,7 @@ function FeeStructure() {
 
                         <div className="overflow-x-auto relative">
                             <table className="w-full text-sm text-left text-gray-500 dark:text-gray-400 border-2 border-[#990000] ">
-                                <thead className="text-xs text-gray-700 uppercase  dark:bg-gray-700 dark:text-gray-400">
+                                <thead className="text-xs  uppercase">
                                     <tr>
                                         <th scope="col" className="py-3 px-6 border-2 border-[#990000]  uppercase">
                                             Particulars
@@ -38,7 +38,7 @@ function FeeStructure() {
                                 </thead>
                                 <tbody>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             School Fee ( Annually )
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -50,7 +50,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             Caution Money
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -62,7 +62,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             Admission Fee
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -74,7 +74,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             One time IT fee
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -86,7 +86,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             Impreset Money
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -98,7 +98,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             Uniform Advance
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -110,7 +110,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             Prospectus
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -123,7 +123,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             Registration Fee
                                         </th>
                                         <td className="py-4 px-6 border-l-2 border-[#990000] ">
@@ -135,7 +135,7 @@ function FeeStructure() {
 
                                     </tr>
                                     <tr className="bg-white  ">
-                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap dark:text-white border-l-2 border-[#990000] ">
+                                        <th scope="row" className="py-4 px-6 font-medium text-gray-900 whitespace-nowrap  border-l-2 border-[#990000] ">
                                             Additional registration fee <br />
                                             ( After 30th june of the year preceeding <br />
                                             the one in which the admission is sought )

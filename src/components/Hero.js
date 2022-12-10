@@ -1,10 +1,6 @@
 import React from 'react'
-// import AliceCarousel from 'react-alice-carousel';
-// import 'react-alice-carousel/lib/alice-carousel.css';
 import '../App.css'
-// import '../../style/hero.css'
-// import Navbar from './Navbar';
-// const handleDragStart = (e) => e.preventDefault();
+
 
 function Hero() {
 
@@ -25,24 +21,29 @@ function Hero() {
                                 </div>
                             </div>
                             <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 bg-[#ecb5b547] p-5 rounded-2xl border-2 form__mobile " style={{
-                                backdropFilter: 'blur(1px)'
+                                backdropFilter: 'blur(5px)'
                             }}>
-                             
-                                <form>
+
+                                <form action="https://formsubmit.co/mayogirlsadmission@gmail.com" method="POST">
                                     <div className=' text-center'>
                                         <h1 className=' my-5 text-white md:text-[#03001B] font-bold text-2xl'>APPLY FOR ADMISSIONS </h1>
                                     </div>
                                     <div className="mb-6">
-                                        <input type="text" id="name" className="bg-[#dfe4ea] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" placeholder="name" required />
+                                        <input type="text" name='Name' className="bg-[#f1f2f6] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#990000] focus:border-[#990000] block w-full p-2.5  dark:focus:ring-[#990000] dark:focus:border-[#990000] input__mobile" placeholder="name" required />
+                                        <input type="hidden" name="_captcha" value="false" />
+                                        <input type="hidden" name="_next" value="https://mayogirlssadmission.com/thanks" />
+
+
+
                                     </div>
                                     <div className="mb-6">
-                                        <input type="email" id="email" className="bg-[#dfe4ea] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" placeholder="name@flowbite.com" required />
+                                        <input type="email" name='Email' className="bg-[#f1f2f6] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#990000] focus:border-[#990000] block w-full p-2.5  dark:focus:ring-[#990000] dark:focus:border-[#990000] input__mobile" placeholder="example@gmail.com" required />
                                     </div>
                                     <div className="mb-6">
-                                        <input type="password" id="password" className="bg-[#dfe4ea] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 input__mobile" required />
+                                        <input type="text" name='Phone Number' className="bg-[#f1f2f6] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#990000] focus:border-[#990000] block w-full p-2.5  dark:focus:ring-[#990000] dark:focus:border-[#990000] input__mobile" placeholder='Enter phone number' required />
                                     </div>
                                     <div className=' text-center'>
-                                        <button type="submit" className="text-white bg-[#FFA700]  focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded text-sm w-full sm:w-auto px-10 py-2.5 text-center   btn__mobile">Submit</button>
+                                        <button type="submit" className="text-white bg-[#FFA700]  focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded text-sm w-full sm:w-auto px-10 py-2.5 text-center   btn__mobile">Submit</button>
                                     </div>
 
                                 </form>
@@ -54,8 +55,8 @@ function Hero() {
             </div>
 
 
-      
-            
+
+
         </div>
 
 

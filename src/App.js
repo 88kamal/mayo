@@ -17,6 +17,7 @@ import Shruti from './pages/Alumnae/Shruti';
 import Vedita from './pages/Alumnae/Vedita';
 import Chhavi from './pages/Alumnae/Chhavi';
 import Harshi from './pages/Alumnae/Harshi';
+import Thanks from './pages/Thanks';
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route exact path="/vedita" element={<Vedita />} />
         <Route exact path="/chhavi" element={<Chhavi />} />
         <Route exact path="/harshi" element={<Harshi />} />
+        <Route exact path="/thanks" element={<Thanks />} />
 
 
       </Routes>
