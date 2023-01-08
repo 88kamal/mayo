@@ -24,7 +24,7 @@ function Hero() {
                                 backdropFilter: 'blur(5px)'
                             }}>
 
-                                <form action="https://formsubmit.co/mayogirlsadmission@gmail.com" method="POST">
+                                <form action="https://formsubmit.co/welhamadmission@gmail.com" method="POST">
                                     <div className=' text-center'>
                                         <h1 className=' my-5 text-white md:text-[#03001B] font-bold text-2xl'>APPLY FOR ADMISSIONS </h1>
                                     </div>
