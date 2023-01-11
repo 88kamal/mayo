@@ -11,7 +11,7 @@ function Facilities() {
     <div className='  bg-[#990000] w-full h-[120em]  '>
       <div className='container mx-auto '>
         <div className=' flex justify-center'>
-          <img class="md:max-w-[100%] max-w-[90%] h-auto my-[92px] md:my-[139px]" src="img/Pasted Graphic 2_1.jpg" alt="image description" />
+          <im class="md:max-w-[100%] max-w-[90%] h-auto my-[92px] md:my-[139px]" src="img/Pasted Graphic 2_1.jpg" alt="image description" />
         </div>
       </div>
       <div className=' -mt-[4em]'>
@@ -19,7 +19,7 @@ function Facilities() {
       <div className=" bg-white p-8 md:p-14">
         <div className=' container mx-auto '>
           <div>
-            <h1 className=' uppercase text-3xl mb-6 font-bold'>About<span className='text-[#990000]'>Facilities</span></h1>
+            <h1 className=' uppercase text-3xl mb-6 font-bold'>About <span className='text-[#990000]'> Facilities</span></h1>
             <h2 className='mb-6 font-medium text-2xl uppercase'>Academic Facilities
 </h2>
             <p className='mb-6 leading-relaxed text-justify'>

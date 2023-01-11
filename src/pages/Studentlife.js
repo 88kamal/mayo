@@ -20,7 +20,7 @@ function Studentlife() {
       <div className=" bg-white p-8 md:p-14">
         <div className=' container mx-auto '>
           <div>
-            <h1 className=' uppercase text-3xl mb-6 font-bold'>Student<span className='text-[#990000]'>Life</span></h1>
+            <h1 className=' uppercase text-3xl mb-6 font-bold'>Student <span className='text-[#990000] '> Life</span></h1>
             <h2 className='mb-6 font-medium text-2xl uppercase'>About Student Life
 
 </h2>

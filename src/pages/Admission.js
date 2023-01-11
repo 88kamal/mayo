@@ -11,7 +11,7 @@ function Admission() {
       <div className='  bg-[#990000] w-full h-[120em]  '>
         <div className='container mx-auto '>
           <div className=' flex justify-center'>
-            <img class="md:max-w-[100%] max-w-[90%] h-auto my-[92px] md:my-[139px]" src="image/Pasted Graphic 4_1.jpg" alt="image description" />
+            <img  class="md:max-w-[100%] max-w-[90%] h-auto my-[92px] md:my-[139px]" src="image/Pasted Graphic 4_1.jpg" alt="image description" />
           </div>
         </div>
 
@@ -22,7 +22,7 @@ function Admission() {
                 <span className='text-[#990000]'> Admission</span>
               </h1>
               <h1 className=" mb-5 font-medium">ADMISSION INFORMATION</h1>
-              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-[20px] dark:text-gray-400 text-justify">The third week of November is always when the Common Aptitude Analysis for admission to Mayo College Girls' School is held at various locations in India. Additionally, it can be organised through the Indian Embassy there. The analysis analyses the applicant in English, Hindi, and mathematics to gauge their proficiency with those subjects as appropriate for their age. In August of the year before the desired admittance, parents are contacted.
+              <p className="max-w-2xl mb-6  text-black lg:mb-8 md:text-lg lg:text-[15px] text-justify">The third week of November is always when the Common Aptitude Analysis for admission to Mayo College Girls' School is held at various locations in India. Additionally, it can be organised through the Indian Embassy there. The analysis analyses the applicant in English, Hindi, and mathematics to gauge their proficiency with those subjects as appropriate for their age. In August of the year before the desired admittance, parents are contacted.
                 Only students who have registered for admission and are eligible based on their previous class of study are permitted to take the aptitude analysis.
                 The lowest class is Class IV, and your child who has completed Class III and attends a school that teaches English, ideally, is eligible to take the Common Aptitude Analysis. Age restrictions are tightly upheld, and the parent is in charge of making the necessary arrangements for compliance.</p>
 

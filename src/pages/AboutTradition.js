@@ -20,7 +20,7 @@ function AboutTradition() {
               <h1 className="title-font sm:text-4xl text-3xl mb-4 font-bold text-gray-900 uppercase">About
                 <span className='text-[#990000]'>TRADITION</span>
               </h1>
-              <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-[20px] dark:text-gray-400 text-justify">The students and teachers of MCGS School, Ajmer have a lot to be proud of. This institution has been imparting quality education since its inception. Today, it is one of the most sought-after schools in the country with a rich history and legacy.
+              <p className="max-w-2xl mb-6  text-black lg:mb-8 md:text-lg lg:text-[15px] text-justify">The students and teachers of MCGS School, Ajmer have a lot to be proud of. This institution has been imparting quality education since its inception. Today, it is one of the most sought-after schools in the country with a rich history and legacy.
 The school has been awarded the status of ' India's top girls' boarding school. The academy provides high-quality education to its students by providing them with state-of-the-art infrastructure along with well-qualified staff members who are dedicated towards their work and are always ready to help students in achieving their goals in life through their education.
 The school also has an interesting tradition near the end of April, just before the girls leave for spring break, called Jamila Singh House Day. This event involves every student in grades 4, 5, and 6. 
 In addition to performances from all four dance styles—Kathak, Bharatnatyam, Odissi, and Folk—this thrilling event also features a Hindustani group song and a junior orchestra. 

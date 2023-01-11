@@ -11,7 +11,7 @@ function Withdrawalpolicy() {
             <div className='  bg-[#990000] w-full h-[120em]  '>
                 <div className='container mx-auto '>
                     <div className=' flex justify-center'>
-                        <img class="md:max-w-[100%] max-w-[90%] h-auto my-[92px] md:my-[139px]" src="image2/Pasted Graphic 3.jpg" alt="image description" />
+                        <img  class="md:max-w-[100%] max-w-[90%] h-auto my-[92px] md:my-[139px]" src="image2/Pasted Graphic 3.jpg" alt="image description" />
                     </div>
                 </div>
 
@@ -23,7 +23,7 @@ function Withdrawalpolicy() {
                                 <span className='text-[#990000]'> WITHDRAWAL POLICY</span>
                             </h1>
                             <h1 className=" mb-5 font-medium">WITHDRAWAL POLICY</h1>
-                            <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-[20px] dark:text-gray-400 text-justify">The Mayo Girls College School requires a minimum of three months' notice for withdrawals.
+                            <p className="max-w-2xl mb-6  text-black lg:mb-8 md:text-lg lg:text-[16px] dark:text-gray-400 text-justify">The Mayo Girls College School requires a minimum of three months' notice for withdrawals.
                                 If a withdrawal is made in April through July, the school costs will be prorated in half.
                                 Full costs will be assessed for withdrawals made during and after August.
                                 The fees will be assessed until JUNE for withdrawals from Classes X and XII.
