@@ -96,11 +96,16 @@ function SimilarSchool() {
             </section> */}
             <section className="text-gray-600 body-font bg-[#DBDBDB]">
                 <div className="container px-5 py-10 md:py-24 mx-auto">
-                    <div className="flex flex-wrap w-full mb-5 md:mb-10">
+                    <div className="flex flex-wrap w-full mb-0 md:mb-2">
                         <div className="lg:w-1/2 w-full mb-2 lg:mb-0">
                             <h1 className="sm:text-3xl text-2xl title-font mb-2 text-[#03001B] font-bold">ALUMNAE</h1>
                         </div>
                     </div>
+                    <div className=" md:mb-6 mb-4">
+                        <p className=' text-black '>
+                            Mayo College Girls School not only excels at providing world class education but also offers a wide range of extracurricular activities for students to participate in. These activities at Mayo Girls school are intended to provide students with opportunities to develop a wide range of skills and interests outside of the classroom, while also fostering a sense of community and teamwork.
+                            </p>
+                        </div>
                     <div className="flex flex-wrap -m-4">
                         <div className="xl:w-1/4 md:w-1/2 p-6 md:p-4">
                             <div className="bg-gray-100 p-6 rounded-2xl h-[32em] md:h-[532px] box__shadow ">

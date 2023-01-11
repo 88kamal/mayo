@@ -6,9 +6,15 @@ function BeyonAcademy() {
             <section className="text-gray-600 body-font bg-[#990000] p-5">
                 <div className="container px-5 py-5 md:py-10 mx-auto ">
                     <div className="flex flex-wrap w-full md:mb-10">
-                        <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
+                        <div className="lg:w-1/2 w-full mb-3">
                             <h1 className="sm:text-3xl text-3xl  title-font mb-2 text-[#03001B] font-bold ">BEYOND <span className=' text-white'>ACADEMICS</span> </h1>
                             {/* <div className="h-1 w-20 bg-purple-500 rounded" /> */}
+                            
+                        </div>
+                        <div className="mb-8 md:mb-0">
+                        <p className=' text-white '>
+                            Mayo College Girls School not only excels at providing world class education but also offers a wide range of extracurricular activities for students to participate in. These activities at Mayo Girls school are intended to provide students with opportunities to develop a wide range of skills and interests outside of the classroom, while also fostering a sense of community and teamwork.
+                            </p>
                         </div>
 
                     </div>
