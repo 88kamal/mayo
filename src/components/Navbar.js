@@ -128,13 +128,13 @@ function Navbar() {
                                                         <Menu.Item>
                                                             {({ active }) => (
                                                                 <Link
-                                                                    to={'/about'}
+                                                                    to={'/abouttradition'}
                                                                     className={classNames(
                                                                         active ? ' text-[#FFA700]' : 'text-black',
                                                                         'block px-4 py-2 text-sm'
                                                                     )}
                                                                 >
-                                                                    About Mayo
+                                                                    About Tradition
                                                                 </Link>
                                                             )}
                                                         </Menu.Item>
