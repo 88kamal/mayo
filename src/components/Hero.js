@@ -1,4 +1,5 @@
 import React from 'react'
+
 import '../App.css'
 
 
@@ -24,7 +25,8 @@ function Hero() {
                                 backdropFilter: 'blur(5px)'
                             }}>
 
-                                <form action="https://formsubmit.co/welhamadmission@gmail.com" method="POST">
+                                <form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/g7wMYnSFcQYOQ92vik9y" method="POST">
+                                    
                                     <div className=' text-center'>
                                         <h1 className=' my-5 text-white md:text-[#03001B] font-bold text-2xl'>APPLY FOR ADMISSIONS </h1>
                                     </div>
@@ -40,10 +42,10 @@ function Hero() {
                                         <input type="email" name='Email' className="bg-[#f1f2f6] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#990000] focus:border-[#990000] block w-full p-2.5  dark:focus:ring-[#990000] dark:focus:border-[#990000] input__mobile" placeholder="example@gmail.com" required />
                                     </div>
                                     <div className="mb-6">
-                                        <input type="text" name='Phone Number' className="bg-[#f1f2f6] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#990000] focus:border-[#990000] block w-full p-2.5  dark:focus:ring-[#990000] dark:focus:border-[#990000] input__mobile" placeholder='Enter phone number' required />
+                                        <input type="text" name='PhoneNumber' className="bg-[#f1f2f6] border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-[#990000] focus:border-[#990000] block w-full p-2.5  dark:focus:ring-[#990000] dark:focus:border-[#990000] input__mobile" placeholder='Enter phone number' required />
                                     </div>
                                     <div className=' text-center'>
-                                        <button type="submit" className="text-white bg-[#FFA700]  focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded text-sm w-full sm:w-auto px-10 py-2.5 text-center   btn__mobile">Submit</button>
+                                        <button type="Submit"  className="text-white bg-[#FFA700]  focus:ring-4 focus:outline-none focus:ring-red-300 font-medium rounded text-sm w-full sm:w-auto px-10 py-2.5 text-center   btn__mobile">Submit</button>
                                     </div>
 
                                 </form>
